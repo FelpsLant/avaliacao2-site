@@ -1,1 +1,2 @@
-
+Homepage URL: https://avaliacao2-site.pages.dev
+Authorization callback URL: https://avaliacao2-site.pages.dev/oauth/callback/github
