@@ -19,4 +19,4 @@
 - [x] consigo explicar por que os arquivos estáticos permanecem públicos: qualquer arquivo dentro de `public/` é servido diretamente pelo Cloudflare Pages por sua URL, independentemente de haver ou não uma sessão ativa — a sessão só protege as rotas dinâmicas (`/api/*`) que consultam e validam o cookie no servidor; ocultar um link na página não torna o recurso privado;
 - [x] as sessões administrativas foram encerradas no computador utilizado.
 
-Assinatura: Felipe de Lima Amarante (trabalho individual)
+Assinatura: Felipe de Lima Amarante
