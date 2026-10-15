@@ -5,7 +5,6 @@ on:
 permissions:
   contents: read
   pull-requests: write
-  models: read
 jobs:
   revisar:
     runs-on: ubuntu-latest
@@ -13,6 +12,10 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - run: npm install -g @github/copilot
       - name: Monta o prompt
         run: |
           {
