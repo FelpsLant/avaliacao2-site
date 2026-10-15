@@ -1,0 +1,13 @@
+name = "avaliacao2-site"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "public"
+
+[vars]
+GITHUB_CLIENT_ID = "Ov23liUyKhs8d3PHHsjK"
+GOOGLE_CLIENT_ID = "394307226444-3mk9qbq4acosid7v1lbe81emb1u70sli.apps.googleusercontent.com"
+PUBLIC_BASE_URL = "https://avaliacao2-site.pages.dev"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "oauth-sessions-avaliacao2"
+database_id = "f004ee60-6446-4bde-a107-d8bbc12871d1"
